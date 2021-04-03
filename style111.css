@@ -1,0 +1,116 @@
+body {
+	width: 99%; height: 100%; display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	 background-size: 100% 100%;
+	background-color: #000000;
+   padding: 0px;
+   margin: 0px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #6A5ACD;
+	font: 100%/1.5 sans-serif;
+
+}
+
+
+.menu {
+	height: 80px;
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%; height: 100px;
+	background: #C0C0C0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+h1 {
+font-family: 'Comic Sans MS', cursive;
+line-height: 1em;
+color: #ffffff;
+font-weight:bold;
+font-size: 100px;
+text-shadow:0px 0px 0 rgb(238,238,238),1px 1px 0 rgb(232,232,232),2px 2px 0 rgb(225,225,225),3px 3px 0 rgb(218,218,218),4px 4px 0 rgb(212,212,212),5px 5px 0 rgb(205,205,205),6px 6px 0 rgb(198,198,198),7px 7px 0 rgb(192,192,192),8px 8px 0 rgb(185,185,185),9px 9px 0 rgb(178,178,178),10px 10px 0 rgb(172,172,172),11px 11px 0 rgb(165,165,165), 12px 12px 0 rgb(158,158,158),13px 13px 12px rgba(0,0,0,1),13px 13px 1px rgba(0,0,0,0.5),0px 0px 12px rgba(0,0,0,.2);
+}
+
+h2 {
+font-family: 'Comic Sans MS', cursive;
+line-height: 1em;
+color: #ffffff;
+font-weight:bold;
+font-size: 70px;
+text-shadow:0px 0px 0 rgb(238,238,238),1px 1px 0 rgb(232,232,232),2px 2px 0 rgb(225,225,225),3px 3px 0 rgb(218,218,218),4px 4px 0 rgb(212,212,212),5px 5px 0 rgb(205,205,205),6px 6px 0 rgb(198,198,198),7px 7px 0 rgb(192,192,192),8px 8px 0 rgb(185,185,185),9px 9px 0 rgb(178,178,178),10px 10px 0 rgb(172,172,172),11px 11px 0 rgb(165,165,165), 12px 12px 0 rgb(158,158,158),13px 13px 12px rgba(0,0,0,1),13px 13px 1px rgba(0,0,0,0.5),0px 0px 12px rgba(0,0,0,.2);
+}
+
+main {
+width: 100%; height: 100px;
+	background: white;
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid black;
+}
+
+#gradient
+{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+input.button4 {
+  position: relative;
+  display: inline-block;
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: rgb(245,245,245);
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  text-decoration: none;
+  user-select: none;
+  padding: .3em 1em;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: #1E90FF linear-gradient(#82d18d, #1E90FF);
+  box-shadow: inset #72de26 0 -1px 1px, inset 0 1px 1px #98ff98, #3caa3c 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
+}
+input.button4:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+  cursor: pointer;
+}
+input.button4:active {
+  top: 1px;
+  color: #fff;
+  text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+  box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+@-webkit-keyframes pulsate {
+  50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+@keyframes pulsate {
+  50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+
+#ajax
+{
+  width: 25%;
+  height: 15%;
+}
+
+#boom
+{
+text-shadow:0px 1px 0 rgb(122,42,40),0px 2px 1px rgba(0,0,0,0.05);
+-webkit-text-shadow:0px 1px 0 rgb(122,42,40),0px 2px 1px rgba(0,0,0,0.05);
+-moz-text-shadow:0px 1px 0 rgb(122,42,40),0px 2px 1px rgba(0,0,0,0.05);
+color:#f3544f;
+font-size:24px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
